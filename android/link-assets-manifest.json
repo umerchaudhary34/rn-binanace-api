@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-Bold.ttf",
+      "sha1": "a01693c7d32826d9626013a283d22748314a2157"
+    },
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-ExtraBold.ttf",
+      "sha1": "0201a849f2e41c093c1a67ee4fc5901d8e74eaf0"
+    },
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-Regular.ttf",
+      "sha1": "b93c059782bd1c16bc0c5c495d245e2147a7c573"
+    },
+    {
+      "path": "src/assets/fonts/VisbyBold.otf",
+      "sha1": "04ec39a46ffacc7a717f89eb32dfc13c1bd6bf02"
+    },
+    {
+      "path": "src/assets/fonts/VisbyExtrabold.otf",
+      "sha1": "0cfde9a242ed450ec856fa28bdb0bad4f2934972"
+    },
+    {
+      "path": "src/assets/fonts/VisbyHeavy.otf",
+      "sha1": "4971e6581e31279c4df50cee66d446475115652e"
+    },
+    {
+      "path": "src/assets/fonts/VisbyLight.otf",
+      "sha1": "f9b85a8c16dbb7e12184ac46a5885c21c09dc20c"
+    },
+    {
+      "path": "src/assets/fonts/VisbyMedium.otf",
+      "sha1": "692b1cb9423e4527897890302e6628be21623a05"
+    },
+    {
+      "path": "src/assets/fonts/VisbyRegular.otf",
+      "sha1": "d37070d866e3d3596d23054272593afe50226a41"
+    },
+    {
+      "path": "src/assets/fonts/VisbySemibold.otf",
+      "sha1": "890e57fc60d32d759b85e51b242845e062f87512"
+    },
+    {
+      "path": "src/assets/fonts/VisbyThin.otf",
+      "sha1": "d724222c4afea1086a491c046fbb213681b06c97"
+    }
+  ]
+}

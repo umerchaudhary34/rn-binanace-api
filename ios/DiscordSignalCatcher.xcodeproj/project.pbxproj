@@ -12,9 +12,20 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		181E49F194804F14A70966C0 /* VisbyHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DAFA7E6E81A4D74A13CBD5A /* VisbyHeavy.otf */; };
+		1E89993190E949BEB3F10E22 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 169C91A606674FFB9FBDCD1C /* PlayfairDisplay-Bold.ttf */; };
+		210BD6CC0DEA4EAE8683E5E1 /* VisbyThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FD61A42EA1E24F2D88B2A3EF /* VisbyThin.otf */; };
 		22C852D630BC62C9087045E0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 76905F2B7AB99CCA56CD173F /* PrivacyInfo.xcprivacy */; };
+		3575DF0E5B534E51ADF1F4EB /* VisbyMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89B51EBD11AA4F729E80BE09 /* VisbyMedium.otf */; };
+		4982C4F03F84410AA7B02F27 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13761AD672E64A0487EFE0B4 /* PlayfairDisplay-Regular.ttf */; };
+		511D432C82AE4501B671D7A7 /* VisbyRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D50F0D2773E241C1A3937066 /* VisbyRegular.otf */; };
+		5227BF13ED8F45C39528DE7D /* VisbyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5E01FD81284FDBBCBD030B /* VisbyBold.otf */; };
+		67977ECA35DA4EF9B223C75B /* VisbySemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56A4C2903B484D6096615B5C /* VisbySemibold.otf */; };
+		757B23EB9C9E4C48840A7EAF /* VisbyLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 59C52E21DC4045D797485569 /* VisbyLight.otf */; };
 		7699B88040F8A987B510C191 /* libPods-DiscordSignalCatcher-DiscordSignalCatcherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DiscordSignalCatcher-DiscordSignalCatcherTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8CFEB04A97A8497689C89165 /* VisbyExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E2EB77BA717446CB2F22998 /* VisbyExtrabold.otf */; };
+		A1424E1F03744F71B177F828 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB92F082BBD4E86869D1197 /* PlayfairDisplay-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +42,7 @@
 		00E356EE1AD99517003FC87E /* DiscordSignalCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscordSignalCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DiscordSignalCatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscordSignalCatcherTests.m; sourceTree = "<group>"; };
+		13761AD672E64A0487EFE0B4 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Regular.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DiscordSignalCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordSignalCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DiscordSignalCatcher/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DiscordSignalCatcher/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,15 +50,25 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DiscordSignalCatcher/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DiscordSignalCatcher/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = DiscordSignalCatcher/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		169C91A606674FFB9FBDCD1C /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Bold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DiscordSignalCatcher-DiscordSignalCatcherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscordSignalCatcher-DiscordSignalCatcherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-DiscordSignalCatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscordSignalCatcher.debug.xcconfig"; path = "Target Support Files/Pods-DiscordSignalCatcher/Pods-DiscordSignalCatcher.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2EB77BA717446CB2F22998 /* VisbyExtrabold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyExtrabold.otf; path = ../src/assets/fonts/VisbyExtrabold.otf; sourceTree = "<group>"; };
+		56A4C2903B484D6096615B5C /* VisbySemibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbySemibold.otf; path = ../src/assets/fonts/VisbySemibold.otf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-DiscordSignalCatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscordSignalCatcher.release.xcconfig"; path = "Target Support Files/Pods-DiscordSignalCatcher/Pods-DiscordSignalCatcher.release.xcconfig"; sourceTree = "<group>"; };
+		59C52E21DC4045D797485569 /* VisbyLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyLight.otf; path = ../src/assets/fonts/VisbyLight.otf; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.debug.xcconfig"; path = "Target Support Files/Pods-DiscordSignalCatcher-DiscordSignalCatcherTests/Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5E01FD81284FDBBCBD030B /* VisbyBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyBold.otf; path = ../src/assets/fonts/VisbyBold.otf; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-DiscordSignalCatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscordSignalCatcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76905F2B7AB99CCA56CD173F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = DiscordSignalCatcher/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		76905F2B7AB99CCA56CD173F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = DiscordSignalCatcher/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DiscordSignalCatcher/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89B51EBD11AA4F729E80BE09 /* VisbyMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyMedium.otf; path = ../src/assets/fonts/VisbyMedium.otf; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.release.xcconfig"; path = "Target Support Files/Pods-DiscordSignalCatcher-DiscordSignalCatcherTests/Pods-DiscordSignalCatcher-DiscordSignalCatcherTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DAFA7E6E81A4D74A13CBD5A /* VisbyHeavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyHeavy.otf; path = ../src/assets/fonts/VisbyHeavy.otf; sourceTree = "<group>"; };
+		ADB92F082BBD4E86869D1197 /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-ExtraBold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D50F0D2773E241C1A3937066 /* VisbyRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyRegular.otf; path = ../src/assets/fonts/VisbyRegular.otf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD61A42EA1E24F2D88B2A3EF /* VisbyThin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = VisbyThin.otf; path = ../src/assets/fonts/VisbyThin.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +149,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				95E46FEEA0D745FC91675010 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,6 +163,24 @@
 				00E356EE1AD99517003FC87E /* DiscordSignalCatcherTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		95E46FEEA0D745FC91675010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C5E01FD81284FDBBCBD030B /* VisbyBold.otf */,
+				3E2EB77BA717446CB2F22998 /* VisbyExtrabold.otf */,
+				9DAFA7E6E81A4D74A13CBD5A /* VisbyHeavy.otf */,
+				59C52E21DC4045D797485569 /* VisbyLight.otf */,
+				89B51EBD11AA4F729E80BE09 /* VisbyMedium.otf */,
+				D50F0D2773E241C1A3937066 /* VisbyRegular.otf */,
+				56A4C2903B484D6096615B5C /* VisbySemibold.otf */,
+				FD61A42EA1E24F2D88B2A3EF /* VisbyThin.otf */,
+				169C91A606674FFB9FBDCD1C /* PlayfairDisplay-Bold.ttf */,
+				ADB92F082BBD4E86869D1197 /* PlayfairDisplay-ExtraBold.ttf */,
+				13761AD672E64A0487EFE0B4 /* PlayfairDisplay-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -249,6 +290,17 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				22C852D630BC62C9087045E0 /* PrivacyInfo.xcprivacy in Resources */,
+				5227BF13ED8F45C39528DE7D /* VisbyBold.otf in Resources */,
+				8CFEB04A97A8497689C89165 /* VisbyExtrabold.otf in Resources */,
+				181E49F194804F14A70966C0 /* VisbyHeavy.otf in Resources */,
+				757B23EB9C9E4C48840A7EAF /* VisbyLight.otf in Resources */,
+				3575DF0E5B534E51ADF1F4EB /* VisbyMedium.otf in Resources */,
+				511D432C82AE4501B671D7A7 /* VisbyRegular.otf in Resources */,
+				67977ECA35DA4EF9B223C75B /* VisbySemibold.otf in Resources */,
+				210BD6CC0DEA4EAE8683E5E1 /* VisbyThin.otf in Resources */,
+				1E89993190E949BEB3F10E22 /* PlayfairDisplay-Bold.ttf in Resources */,
+				A1424E1F03744F71B177F828 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
+				4982C4F03F84410AA7B02F27 /* PlayfairDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SP4M85Q5A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DiscordSignalCatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DiscordSignalCatcher;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -498,7 +554,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SP4M85Q5A;
 				INFOPLIST_FILE = DiscordSignalCatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +571,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DiscordSignalCatcher;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

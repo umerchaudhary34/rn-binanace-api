@@ -1,79 +1,138 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🚀 Binance API React Native Starter
 
-# Getting Started
+A foundational React Native application for Binance API integration. This starter project demonstrates wallet balance tracking and provides a solid foundation for building automated trading applications, portfolio managers, or any Binance-connected mobile app.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## 🎯 Purpose
 
-## Step 1: Start the Metro Server
+This is a **starter template** that developers can use to:
+- 🔄 Build automated trading applications
+- 📊 Create portfolio management tools  
+- 📱 Develop custom trading dashboards
+- 🤖 Implement trading bots with mobile interfaces
+- 📈 Build market analysis applications
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+**Start here, build anything!** The basic wallet tracking is just the beginning.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## ✨ What's Included
 
+- ✅ **Binance API Integration** - Ready-to-use API connection with authentication
+- ✅ **Multi-Wallet Support** - SPOT, FUTURES, and MARGIN account access
+- ✅ **TypeScript Foundation** - Type-safe development environment
+- ✅ **Real-time Data** - Live updates with React Query
+- ✅ **Responsive Design** - Works on iOS and Android
+- ✅ **Modern Architecture** - Clean, extensible codebase
+
+## 🏗️ Tech Stack
+
+- **React Native 0.75.3** - Cross-platform framework
+- **TypeScript** - Type safety
+- **@tanstack/react-query** - Server state management
+- **Axios** - HTTP client
+- **Moment.js** - Date formatting
+
+## � Quick Start
+
+### 1. Clone and Install
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone <your-repository-url>
+cd DiscordSignalCatcher
+yarn install
+cd ios && pod install && cd .. # iOS only
 ```
 
-## Step 2: Start your Application
+### 2. Get Binance API Keys
+1. Create account at [Binance.com](https://www.binance.com/)
+2. Go to **Account → API Management**
+3. Create API with **Read permissions only**
+4. Save your API Key and Secret
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+### 3. Configure API Keys
+Edit `src/config/binance.ts`:
+```typescript
+export const BINANCE_CONFIG = {
+  API_KEY: 'your_api_key_here',
+  API_SECRET: 'your_secret_key_here',
+  DEFAULT_TYPE: 'FUTURES', // 'SPOT', 'MARGIN', 'FUTURES'
+};
 ```
 
-### For iOS
-
+### 4. Run the App
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+yarn start          # Start Metro
+yarn ios           # Run on iOS
+yarn android       # Run on Android
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 📖 Understanding the Code
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+### Core Components
+- `src/screens/Home/Home.tsx` - Main wallet display
+- `src/config/binance.ts` - API configuration
+- `src/services/api.tsx` - API service layer (extend here!)
 
-## Step 3: Modifying your App
+### API Integration
+The app uses Binance Account Snapshot API:
+```typescript
+// Current implementation in Home.tsx
+const getAccountSnapshot = async () => {
+  const response = await axios.get(
+    `${BINANCE_CONFIG.ENDPOINT}?${queryString}`,
+    { headers: { 'X-MBX-APIKEY': BINANCE_CONFIG.API_KEY } }
+  );
+};
+```
 
-Now that you have successfully run the app, let's modify it.
+## 🔧 Extending This App
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### For Automated Trading
+```typescript
+// Add to src/services/api.tsx
+export const placeBuyOrder = async (symbol: string, quantity: number) => {
+  // Implementation for placing orders
+};
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+export const getMarketPrice = async (symbol: string) => {
+  // Get current market prices
+};
+```
 
-## Congratulations! :tada:
+### For Portfolio Management
+```typescript
+// Add portfolio calculation features
+export const calculatePnL = (currentPrice: number, buyPrice: number) => {
+  return ((currentPrice - buyPrice) / buyPrice) * 100;
+};
+```
 
-You've successfully run and modified your React Native App. :partying_face:
+### For Market Analysis
+```typescript
+// Add technical analysis features
+export const getKlineData = async (symbol: string, interval: string) => {
+  // Get candlestick data for analysis
+};
+```
 
-### Now what?
+## � Useful Resources
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+- **Binance API Docs**: [developers.binance.com](https://developers.binance.com/)
+- **Account Snapshot API**: [Daily Account Snapshot](https://developers.binance.com/docs/wallet/account/daily-account-snapshoot)
+- **React Native Setup**: [Environment Setup Guide](https://reactnative.dev/docs/environment-setup)
 
-# Troubleshooting
+## 🔒 Security Notes
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- Never commit API keys to version control
+- Use environment variables for production
+- Start with read-only permissions
+- Add IP restrictions when possible
 
-# Learn More
+## 📄 License
 
-To learn more about React Native, take a look at the following resources:
+MIT License - Use this code however you want!
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## ⚠️ Disclaimer
+
+This is educational starter code. Test thoroughly before using with real funds. Not responsible for trading losses.
+
+---
+
+**🌟 Star this repo if it helps you build something awesome!**
